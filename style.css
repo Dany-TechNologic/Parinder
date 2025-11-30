@@ -1268,12 +1268,17 @@ i{
         min-height: 100vh;
         height: auto;
     }
-    .main_slide {
-     min-height: auto;
-     height: auto;
-     padding-top: 0;
-     margin-top: 0 ;
+    .main_slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    min-height:auto;
+    height: auto;
+    padding: 20px 0;
+
     }
+
+   
     .imgdiv {
     margin-top: 0 ;
     padding-top: 0 ;
@@ -1444,12 +1449,15 @@ i{
   box-sizing: border-box;
 }
     .main_slide{
-        flex-direction: column;
-        height: auto;
-        min-height: auto;
-        overflow: visible;
-        padding-bottom: 40px;
         
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    min-height:auto;
+    height: auto;
+    padding: 20px 0;
+
+    }
 
     }
     .main_slide div:nth-child(1){
