@@ -1264,10 +1264,7 @@ i{
 
     }
 
-    #biryani{
-        min-height: 100vh;
-        height: auto;
-    }
+    
     .main_slide{
     display: flex;
     align-items: center;
@@ -1276,7 +1273,7 @@ i{
     height: auto;
     padding: 20px 0;
 
-    }
+}
 
    
     .imgdiv {
@@ -1449,15 +1446,12 @@ i{
   box-sizing: border-box;
 }
     .main_slide{
+       
+        height: auto;
+        min-height: auto;
+        overflow: visible;
+        padding-bottom: 40px;
         
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    min-height:auto;
-    height: auto;
-    padding: 20px 0;
-
-    }
 
     }
     .main_slide div:nth-child(1){
