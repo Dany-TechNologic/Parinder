@@ -136,12 +136,12 @@ i{
 }
 
 .main_slide{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap-reverse;
+    
+    
+    
     min-height:auto;
     height: auto;
-    padding: 20px 0;
+    
 
 }
 
@@ -1447,8 +1447,7 @@ i{
        
         height: auto;
         min-height: auto;
-        overflow: visible;
-        padding-bottom: 40px;
+       
         
 
     }
