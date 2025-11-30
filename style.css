@@ -1266,12 +1266,10 @@ i{
 
     
     .main_slide{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap-reverse;
+ 
     min-height:auto;
     height: auto;
-    padding: 20px 0;
+    
 
 }
 
