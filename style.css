@@ -138,16 +138,20 @@ i{
 .main_slide{
     
     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
-    min-height:auto;
-    height: auto;
+    min-height: 100vh;
     
 
 }
 
-.main_slide img {
-    max-height: 540px;   
-    width: auto;
+.imgdiv img {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    display: block;
     object-fit: contain;
 }
 
@@ -1265,19 +1269,30 @@ i{
     }
 
     
-    .main_slide{
- 
-    min-height:auto;
-    height: auto;
+.main_slide{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    min-height: 100vh;
     
 
 }
+ .imgdiv img {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    display: block;
+    object-fit: contain;
+ }
 
    
     .imgdiv {
     margin-top: 0 ;
     padding-top: 0 ;
-}
+ }
 
 
 
@@ -1443,14 +1458,25 @@ i{
     *, *::before, *::after {
   box-sizing: border-box;
 }
-    .main_slide{
-       
-        height: auto;
-        min-height: auto;
-       
-        
+.main_slide{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    min-height: 100vh;
+    
 
-    }
+}
+
+  .imgdiv img {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    display: block;
+    object-fit: contain;
+   }
     .main_slide div:nth-child(1){
         font-size: (18px);
         overflow: visible;
@@ -1480,9 +1506,6 @@ i{
 
     }
 
-    #biryani{
-        min-height: fit-content;
-    }
 
     #mobile {
         display: block;
